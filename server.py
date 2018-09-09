@@ -18,7 +18,6 @@ r.set("mewtwo", 0)
 
 @app.route('/clearall')
 def clearall():
-    # show the subpath after /path/
 	r.set("venusaur", 0)
 	r.set("charizard", 0)
 	r.set("blastoise", 0)
